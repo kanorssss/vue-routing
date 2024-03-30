@@ -6,12 +6,12 @@
 <script>
 export default {
     //pwede din ganito
-    data() {
-        return {
-            id: this.$route.params.id
-        }
-    }
-
+    props: ['id'],
+    // data() {
+    //     return {
+    //         id: this.$route.params.id
+    //     }
+    // }
 }
 </script>
 
